@@ -1,0 +1,67 @@
+ body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,0.9248949579831933) 51%, rgba(23,117,136,1) 84%);
+}
+.container{
+    background: rgb(238,174,202);
+    background: linear-gradient(120deg, rgb(217, 112, 158) 0%, rgba(148,187,233,1) 100%);
+    height: 400px;
+    width: 360px;
+    background-color: white;
+    margin:180px auto;
+    font-size: large;
+    line-height: 40px;
+    padding-top: 30px;
+    border-radius: 15px; /* Added rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Added shadow for a soft 3D effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+.container:hover{
+    height: 420px;
+    width: 400px;
+    font-size: 24px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+} 
+.btn{
+    display: flex;
+    justify-content: center; /* Horizontally center*/
+    align-items: center;     /*Vertically center */
+} 
+button{
+  
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(5, 23, 65);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px; /* Slightly larger font */
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+button:hover{
+    padding: 14px 25px; /* Slightly larger button on hover */
+    border-radius: 14px; /* Smoother hover effect */
+    background-color: rgb(3, 12, 45); /* Darker shade of blue on hover */
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+      max-width: 90%;
+      margin: 20% auto;
+      padding: 15px;
+    }
+    button {
+      width: 40%;
+      height: 15px;
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+
+
+
+
